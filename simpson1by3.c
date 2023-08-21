@@ -1,14 +1,13 @@
 #include<stdio.h>
 #include<math.h>
 
-/* Define function here */
+
 #define f(x) pow(x,4)+x+2
 
 int main()
 {
  float h,i,j,I,lower, upper, integration=0.0 ;
 
- /* Input */
  printf("Enter lower limit of integration: ");
  scanf("%f", &lower);
  printf("Enter upper limit of integration: ");
